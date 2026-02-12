@@ -1,8 +1,12 @@
 # Shrike
 
-<img src="Lanius_ludovicianus.jpg" alt="Shrike Mascot" width="30%" align="right">
-
-*Loggerhead Shrike — Photo by Dave Menke / U.S. Fish and Wildlife Service (Public Domain)*
+<table align="right">
+  <tr><td>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Lanius_ludovicianus.jpg" alt="Shrike Mascot" width="300">
+    <br>
+    <sub>Photo: Dave Menke / USFWS (Public Domain)</sub>
+  </td></tr>
+</table>
 
 A SQL Server test runner that catches bugs.
 
