@@ -1,7 +1,8 @@
 # Shrike
 
-- Designed by Richard Kelly. 
-- Built with [Claude Opus 4.6](https://www.anthropic.com) (Anthropic).
+![Shrike Mascot](Lanius_ludovicianus.jpg)
+
+*Loggerhead Shrike — Photo by Dave Menke / U.S. Fish and Wildlife Service (Public Domain)*
 
 A SQL Server test runner that catches bugs.
 
@@ -35,7 +36,7 @@ python -m venv .venv
 source .venv/bin/activate
 
 # Install Shrike from GitHub
-pip install git+https://github.com/your-org/shrike.git
+pip install git+https://github.com/rkelly/shrike.git
 
 # Scaffold a test workspace
 shrike init
@@ -57,6 +58,8 @@ Your tests live in **your own repo**, completely separate from Shrike. To update
 ```bash
 pip install --upgrade git+https://github.com/your-org/shrike.git
 ```
+
+Recommendation: Add your own repo to version control or otherwise make sure you back it up. As you start developing test files, you won't want to lose those.
 
 ### For development (clone the repo)
 
@@ -264,7 +267,8 @@ shrike validate      Check test files for syntax errors
 
 ## Attribution
 
-Built with [Claude Opus 4.6](https://www.anthropic.com) (Anthropic).
+- Designed by Richard Kelly.
+- Built with [Claude Opus 4.6](https://www.anthropic.com) (Anthropic).
 
 ## License
 
