@@ -1,13 +1,5 @@
 # Shrike
 
-<table align="right">
-  <tr><td>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Lanius_ludovicianus.jpg" alt="Shrike Mascot" width="300">
-    <br>
-    <sub>Photo: Dave Menke / USFWS (Public Domain)</sub>
-  </td></tr>
-</table>
-
 A SQL Server test runner that catches bugs.
 
 Shrike reads test files from a directory, executes them against SQL Server, and reports pass/fail results. It supports single-server checks, multi-row validation, and cross-server comparisons.
@@ -277,3 +269,9 @@ shrike validate      Check test files for syntax errors
 ## License
 
 MIT
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Lanius_ludovicianus.jpg" alt="Shrike Mascot" width="30%">
+  <br>
+  <sub>Photo: Dave Menke / USFWS (Public Domain)</sub>
+</div>
