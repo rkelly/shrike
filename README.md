@@ -1,6 +1,6 @@
 # Shrike
 
-<img src="Lanius_ludovicianus.jpg" alt="Shrike Mascot" width="30%">
+<img src="Lanius_ludovicianus.jpg" alt="Shrike Mascot" width="30%" align="right">
 
 *Loggerhead Shrike — Photo by Dave Menke / U.S. Fish and Wildlife Service (Public Domain)*
 
