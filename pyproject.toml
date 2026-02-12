@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shrike-sql"
+version = "0.1.0"
+description = "A SQL Server test runner that catches bugs — with cross-server checks"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "Your Name"},
+]
+keywords = ["sql-server", "testing", "data-quality", "database", "odbc"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Database",
+    "Topic :: Software Development :: Testing",
+]
+dependencies = [
+    "pyodbc>=5.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+shrike = "shrike.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/your-org/shrike"
+Issues = "https://github.com/your-org/shrike/issues"
